@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
   </style> 
 
 </head>
@@ -13,21 +13,21 @@
   <script src="countdown.js"></script>
 
   <div class="container">
-      <button id="tomato" type="button" onclick="updateDuration()">
+      <!-- <button id="tomato" type="button" onclick="updateDuration()">
         🍅
-      </button>
+      </button> -->
 
-    <div id="countdown">50:00</div>
+    <div id="countdown" type="button" onclick="updateDuration()">50:00</div>
     
     <div class="buttons">
       <button type="button" onclick="playPauseCountdown()">
         <div class="imageContainer">
-          <img id="playPause" src="playButton4x.png">
+          <img id="playPause" src="play.png">
         </div>
       </button>
       <button type="button" onclick="restartCountdown()">
         <div class="imageContainer" id="resetButton">
-          <img src="resetButton4x.png">
+          <img src="refresh.png">
         </div>
       </button>
     </div>
