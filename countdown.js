@@ -1,6 +1,7 @@
 const secondsInaMinute = 60;
 const minutes_25 = secondsInaMinute * 25;
 const minutes_50 = secondsInaMinute * 50;
+const minutes_10 = secondsInaMinute * 10;
 const seconds_10 = 10; //for testing
 
 let interval;
@@ -14,6 +15,8 @@ function updateDuration() {
   //The pomodoro duration is by default 50, but we can change to 25!
   if(pomodoroDuration == minutes_50 ) {
     pomodoroDuration = minutes_25;
+  } else if(pomodoroDuration == minutes_25) {
+    pomodoroDuration = minutes_10;
   } else {
     pomodoroDuration = minutes_50;
   }
