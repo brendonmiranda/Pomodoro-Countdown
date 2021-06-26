@@ -1,5 +1,5 @@
 .container {
-  background-color: #8fb6d800;
+  background-color: #8fb6d834;
   display:flex;
   justify-content: center;
   align-items: center;
@@ -27,10 +27,11 @@
 }
 
 button {
-  background-color: #8fb6d800;
+  background-color: #8fb6d834;
   border: 0;
   padding-left: 0px;
   padding-right: 0px;
+  outline:0;
 }
 
 .imageContainer {
