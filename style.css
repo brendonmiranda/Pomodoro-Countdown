@@ -1,11 +1,11 @@
 .container {
-  background-color: #355068;
+  background-color: #8fb6d800;
   display:flex;
   justify-content: center;
   align-items: center;
   height:75px;
   width:360px;
-  border:8px solid #d5d5ce;
+  /* border:8px solid #7479aa; */
 }
 
 #tomato {
@@ -18,15 +18,15 @@
 #countdown {
   text-align: center;
   font-size: 50px;
-  font-family: "Glacial Indifference";
+  font-family: 'Noto Sans', sans-serif;
   font-weight: 600;
-  color: white;
+  color: rgb(0, 0, 0);
   margin-left: 10px;
   margin-right: 20px;
 }
 
 button {
-  background-color: #355068;
+  background-color: #8fb6d800;
   border: 0;
   padding-left: 0px;
   padding-right: 0px;
