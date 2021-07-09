@@ -1,11 +1,10 @@
 .container {
-  background-color: #8fb6d834;
+  background-color: #5b5bc367;
   display:flex;
   justify-content: center;
   align-items: center;
   height:75px;
   width:360px;
-  border:8px solid #93a5f1;
 }
 
 #tomato {
@@ -18,9 +17,8 @@
 #countdown {
   text-align: center;
   font-size: 50px;
-  font-family: 'Archivo Black', sans-serif;
-  font-weight: 600;
-  color: rgb(0, 0, 0);
+  font-family: 'Nanum Gothic', sans-serif;
+  color: #ffffffd8;
   margin-left: 10px;
   margin-right: 20px;
   margin-top: -10px;
@@ -40,10 +38,15 @@ button {
 }
 
 .imageContainer img {
-  width:auto;
-  height:100%;
+  height:50px;
 }
 
 #resetButton {
   margin-right: 15px;
+  margin-left: 15px;
+}
+
+#resetButton img {
+  height:39px;
+  margin-bottom: 4px;
 }
